@@ -1,0 +1,237 @@
+/*
+    FlatApp Responsive
+*/
+
+@media (max-width: 1024px) {
+    .hero-section{ z-index: 1; }
+    .app-mockup{ z-index: -1; }
+    .feature-list,
+    .doc-content{
+        padding: 0;
+    }
+    .app-mockup-2{ right: 50px; }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{ padding: 15px; }
+    .sm-br-none br{
+        display: none;
+    }
+    .fz-45{ font-size: 35px;}
+    .sm-no-padding{
+        padding: 0;
+    }
+    .height-500, .height-550, .height-600, .height-650, .height-700, .height-750{
+        height: 450px;
+    }
+     ul.nav > li > a {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .hero-content{ padding: 0; }
+    .screen-wrap { width: 760px; }
+
+    .contact-info-card{
+    padding: 15px 20px;
+    width: 300px
+    }
+
+    .contact-info-card h2{
+        font-size: 25px;
+    }
+
+    .contact-info-card h3{
+        font-size: 18px;
+    }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    h2{
+        font-size: 24px;
+    }
+    body, p{
+        font-size: 15px;
+    }
+    .padding{ padding: 60px 0; }
+    .padding-100, .padding-120{ padding: 80px 0; }
+    .fz-40, .fz-45, .fz-50{ font-size: 30px; }
+    .xs-padding{
+        padding: 15px;
+    }
+    .xs-text-left{ text-align: left;}
+    .xs-text-center{ text-align: center; }
+    .xs-no-padding{ padding: 0; }
+    .xs-ptb-50{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .img-w-300 {
+    width: 200px;
+    height: auto;
+    padding-top: 5px
+    }
+    .xs-br-none br{ display: none; }
+    .mb-xs-20{ margin-bottom: 20px!important; }
+    .mb-xs-10{ margin-bottom: 10px; }
+    .mb-100{ margin-bottom: 40px; }
+    #contact{
+        height: 860px!important
+    }
+    .img-w-200 {
+    width: 120px;
+    height: auto;
+    }
+    .swiper-slide img{
+        width: 100% !important
+    }
+    .height-500, .height-550, .height-600, .height-650, .height-700, .height-750{
+        height: 400px;
+    }
+    .video-box{
+        margin: 0;
+    }
+    .navbar-header {
+        padding: 10px 0;
+    }
+    .navbar-header .brand{
+        font-size: 25px;
+        color: #333;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: -1px;
+        font-weight: 700;
+        position: absolute;
+        top: 5px
+    }
+
+    .navbar-collapse {
+        background-color: #000;
+        border-top: medium none;
+        box-shadow: none;
+        margin-top: 0px;
+        overflow-x: visible;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 59px;
+    }
+    ul.nav{
+        margin: 0;
+        overflow: hidden;
+    }
+    ul.nav > li{
+        display: block;
+        margin: 0;
+    }
+    ul.nav > li > a{
+        display: block;
+        font-size: 12px;
+        color: #777;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+    ul.nav > li > a:hover,
+    ul.nav > li.active > a {
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    .screen-wrap { width: 100%; }
+    .swiper-wrapper{ margin-left: -90px; }
+    .feature-list{ margin: 0; }
+
+    .logo-responsive-c{
+        display: none;
+    }
+    .logo-responsive-l{
+        display: none;
+    }
+
+    .contact-info-card{
+    padding: 10px 15px;
+
+    width: 300px
+    }
+
+    .contact-info-card h2{
+        font-size: 20px;
+        text-align: left!important;
+    }
+
+    .contact-info-card h3{
+        font-size: 16px;
+        text-align: left!important
+    }
+
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 480px CSS ---- */
+@media all and (max-width: 620px) {
+    .contact-info-card{
+    display: none!important;
+    }
+    .text-justify {
+    text-align: center;
+    }
+    .telf-fixed{
+        display: none;
+    }
+    .col-xs-6{
+        float: none;
+        width: 100%;
+    }
+    .ptb-140{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .hero-content h1{ font-size: 24px; }
+    .subscribe-form .email-field{
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .subscribe-form button.b-btn{
+        width: 100%;
+    }
+    .widget-box.ptb-35{ padding: 0; }
+    .footer-section{ padding: 30px 0; }
+    .swiper-wrapper{ margin-left: 70px; }
+
+}
+/* ---- End of max-width 480px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 520px) {
+    .screen-wrap { width: 300px; }
+    .swiper-wrapper{ margin-left: 0; }
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+    .btn-group{
+        display: block;
+    }
+    .btn-group a{
+        margin: 5px 0;
+    }
+    
+}
+/* ---- End of max-width 380px CSS ---- */

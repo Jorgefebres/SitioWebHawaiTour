@@ -6,7 +6,7 @@ $(function() {
 
     $('#mc-form').ajaxChimp({
         language: 'cm',
-        url: 'http://uctaxi.us16.list-manage.com/subscribe/post?u=9e9d4991415c213ea697a3012&amp;id=0abf7bbf8d'
+        url: 'http://hawaitour.us16.list-manage.com/subscribe/post?u=9e9d4991415c213ea697a3012&amp;id=0abf7bbf8d'
         
             //http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
     });
